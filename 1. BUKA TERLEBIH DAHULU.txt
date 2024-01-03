@@ -1,0 +1,1 @@
+jika ingin mengecek pada codingan kami, jika menggunakan xampp maka buat database terlebih dahulu bernama "folder_galeri" dan "galerilite" jika sudah membuatnya lalu ke menu Import, select lah pada pada file kami yang berformat .sql sesuai dengan nama database nya ketika sudah scroll bawah sendiri lalu klik button import

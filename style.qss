@@ -1,0 +1,62 @@
+/* style.qss */
+
+/* Gaya untuk jendela aplikasi */
+MainWindow {
+    background-color: #1F1F1F;
+    color: white;
+}
+
+QDialog {
+    background-color: #1F1F1F;
+    color: white;
+}
+
+QWidget {
+    background-color: #1F1F1F;
+}
+
+/* Gaya untuk kotak pencarian */
+QLineEdit {
+    background-color: #303030;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px; /* Padding untuk memperindah tampilan */
+}
+
+QLabel#label_gambar {
+    color: white; 
+}
+
+QListWidget {
+    background-color: #303030;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+/* Gaya untuk tombol-tombol */
+QPushButton {
+    background-color: #253C54;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+QRadioButton {
+    color: white;
+}
+
+/* Gaya ketika tombol ditekan */
+QPushButton:pressed {
+    background-color: #562f83;
+}
+
+QMessageBox QLabel {
+    color: white; /* Mengubah warna teks */
+}
+
+QMessageBox QPushButton {
+    color: white; /* Mengubah warna teks tombol di dalam MessageBox */
+}
